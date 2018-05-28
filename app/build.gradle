@@ -52,6 +52,9 @@ dependencies {
     compile "com.microsoft.azure.mobile:mobile-center-analytics:${mobileCenterSdkVersion}"
     compile "com.microsoft.azure.mobile:mobile-center-crashes:${mobileCenterSdkVersion}"
 
+    compile 'com.p2p.core:p2p-core:0.4.4.1'
+
+
     testCompile 'junit:junit:4.12'
     compile project(':library')
 }
