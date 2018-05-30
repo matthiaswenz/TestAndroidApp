@@ -2,6 +2,8 @@
 echo "1. Post clone"
 env
 
+brew install tree
+
 export ANDROID_NDK_HOME=$ANDROID_HOME/ndk-bundle
 NDK_BUNDLE_TOOLCHAINS=$ANDROID_NDK_HOME/toolchains
 MIPS64_TOOLCHAIN=$NDK_BUNDLE_TOOLCHAINS/mips64el-linux-android-4.9/prebuilt/darwin-x86_64/bin
