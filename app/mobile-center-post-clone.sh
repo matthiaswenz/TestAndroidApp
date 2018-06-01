@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 echo "1. Post clone"
-env
+
+set -ex
 
 ANDROID_NDK_HOME=$ANDROID_HOME/ndk-bundle
 NDK_BUNDLE_TOOLCHAINS=$ANDROID_NDK_HOME/toolchains
