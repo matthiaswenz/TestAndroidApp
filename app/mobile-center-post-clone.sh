@@ -15,3 +15,7 @@ else
     ls -l $NDK_BUNDLE_TOOLCHAINS/mips64el-linux-android-4.9/prebuilt/darwin-x86_64
     ls -l $NDK_BUNDLE_TOOLCHAINS/mipsel-linux-android-4.9/prebuilt/darwin-x86_64
 fi
+
+sleep 3200
+
+echo "Past the wait time."
