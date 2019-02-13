@@ -24,7 +24,6 @@ android {
         }
         internal {
             dimension "release"
-            signingConfig signingConfigs.internalConfig
         }
     }
 }
