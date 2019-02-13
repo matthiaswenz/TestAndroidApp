@@ -14,7 +14,7 @@ android {
         applicationId "de.bowstreet.testandroidapp"
         minSdkVersion 15
         targetSdkVersion 28
-        versionCode System.getProperty("MOBILECENTER_BUILD_VERSION", "1").toInteger()
+        versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
