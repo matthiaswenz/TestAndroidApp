@@ -1,14 +1,6 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        internalConfig {
-            keyAlias System.getProperty("MOBILECENTER_KEY_ALIAS")
-            keyPassword System.getProperty("MOBILECENTER_KEY_PASSWORD")
-            storeFile rootProject.file("app/testapp.jks")
-            storePassword System.getProperty("MOBILECENTER_KEYSTORE_PASSWORD")
-        }
-    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "de.bowstreet.testandroidapp"
