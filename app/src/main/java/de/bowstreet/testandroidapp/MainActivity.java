@@ -5,9 +5,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.microsoft.azure.mobile.MobileCenter;
-import com.microsoft.azure.mobile.analytics.Analytics;
-import com.microsoft.azure.mobile.crashes.Crashes;
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        MobileCenter.start(getApplication(), "675da273-5716-4855-9dd0-431fe51ebfef", Analytics.class, Crashes.class);
+        AppCenter.start(getApplication(), "675da273-5716-4855-9dd0-431fe51ebfef", Analytics.class, Crashes.class);
 
 
         mButton = (Button) findViewById(R.id.button);
