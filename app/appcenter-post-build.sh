@@ -2,8 +2,9 @@
 
 set -ex
 
-if [ -f build/outputs/mapping/live/debug/mapping.txt ]; then 
+if [ -f build/outputs/mapping/live/release/mapping.txt ]; then 
     tag=mapping
+    echo "mapping file exists..."
     echo "##vso[build.addbuildtag]$tag"
-    echo "##vso[task.setvariable variable=appcenter_android_postprocess_mapping]true"
+    echo "##vso[task.setvariable variable=$tag;isOutput=true]true"
 fi
