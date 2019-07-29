@@ -2,6 +2,6 @@
 
 env
 
-ls -la
+ls -la $BUILD_SOURCESDIRECTORY
 
-ls -la .certs
+ls -la $BUILD_SOURCESDIRECTORY/.certs
