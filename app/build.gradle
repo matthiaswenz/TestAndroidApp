@@ -11,7 +11,7 @@ android {
     }
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.dpan.helloworldandroid"
+        applicationId "de.bowstreet.testandroidapp"
         minSdkVersion 16
         targetSdkVersion 28
         versionCode System.getProperty("MOBILECENTER_BUILD_VERSION", "1").toInteger()
