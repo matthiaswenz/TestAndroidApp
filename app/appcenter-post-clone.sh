@@ -1,6 +1,8 @@
-# #!/bin/bash
+#!/bin/bash
 
-# set -ex
+set -ex
+
+env
 
 # GRADLE_INIT_SCRIPTS=$HOME/.gradle/init.d
 
