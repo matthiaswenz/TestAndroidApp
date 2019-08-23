@@ -14,8 +14,8 @@ android {
         applicationId "de.bowstreet.testandroidapp"
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode System.getProperty("MOBILECENTER_BUILD_VERSION", "1").toInteger()
-        versionName "1.0"
+        versionCode System.getenv("APPCENTER_BUILD_VERSION") ? System.getenv("APPCENTER_BUILD_VERSION").toInteger() : 1
+        versionName "0.54.24-bugfixAPP-1234-new-account-isn-t-being-created-after-updating-app-to-new-version.0-SNAPSHOT"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
